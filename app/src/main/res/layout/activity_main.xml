@@ -8,16 +8,25 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/heading_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Happy Birthday"
-        android:layout_gravity="center_horizontal"
-        android:textSize="30sp"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Roll"
-        android:layout_gravity="center_horizontal" />
+        android:text="Snake and Ladder Dice"
+        android:textSize="30sp"
+        android:layout_gravity="center"/>
 
+    <ImageView
+        android:id="@+id/dice_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/dice_1" />
+
+    <Button
+        android:id="@+id/roll_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/roll_label"
+        android:layout_gravity="center_horizontal" />
 
 </LinearLayout>
